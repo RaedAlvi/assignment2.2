@@ -14,7 +14,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex-grow: 1; 
   }
   
   
@@ -23,15 +23,28 @@
     margin-top: 80px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 20px; 
   }
   
   .PAK h2 {
     font-size: 2.5em;
     margin-bottom: 10px;
   }
+  .PAK h1{
+display: flex;
+flex-direction: column;
+align-content:space-between;
+  }
   
   .PAK p {
     font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
   }
   
 
@@ -151,6 +164,10 @@ transform: translateY(-0.25em);
     height: 300px;
     transition: all 0.35s;
     text-align: center;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 20px; 
 
 }
 .hunza_pic:hover{
@@ -174,6 +191,7 @@ transform: translateY(-0.25em);
     text-align: center;
     transition: all 0.35s;
     flex-wrap: wrap;
+   
 }
 .Skardu:hover{
     color: white;
@@ -188,7 +206,9 @@ transform: translateY(-0.25em);
         border:2px solid black;
         background-color: aqua;
         display: flex;
-        flex-direction: column;
+    flex-direction: row; 
+    justify-content: space-between; 
+    gap: 20px; 
         align-items: center;
         text-align: center;
         transition: all 0.35s;
@@ -500,3 +520,4 @@ nav ul li {
         width: 100%;
     }
 }
+
