@@ -450,7 +450,6 @@ main{
     float: left;
 }
 
-/* Basic styles */
 .logo {
     color: #ffa260;
     font-size: 24px;
@@ -468,12 +467,12 @@ nav ul li {
     margin-left: 20px;
 }
 
-/* Hide burger menu checkbox */
+
 .burger_menu {
     display: none;
 }
 
-/* Burger menu icon */
+
 .burger_menu_label {
     display: none;
     cursor: pointer;
@@ -490,7 +489,6 @@ nav ul li {
     display: block;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     nav ul {
         display: none;
